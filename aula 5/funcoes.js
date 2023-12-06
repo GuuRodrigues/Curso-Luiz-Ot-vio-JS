@@ -1,5 +1,8 @@
-function saudacao(name) {
-    console.log(`Olá ${name}`)
+function soma (x, y) {
+    
+    const result = x + y;
+
+    return result;
 }
 
-saudacao('Djully');
+console.log(soma(10, 30));
